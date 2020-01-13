@@ -22,7 +22,7 @@ def input_to_index(num)
 end
 
 def move(board, index, player_token)
-  
+  def update_array(array, index, token)
   board[index] = player_token
 end
 
