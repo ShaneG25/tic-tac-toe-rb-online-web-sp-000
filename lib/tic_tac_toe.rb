@@ -21,8 +21,9 @@ def input_to_index(num)
   num = num.to_i - 1
 end
 
-def move(board, index, player_token)
-  player_token = "X"
+def move(board, index, player_token1, player_token2)
+  player_token1 = "X"
+  player_token2 = "O"
   board[index] = player_token
   end
 
