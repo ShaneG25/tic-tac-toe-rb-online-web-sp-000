@@ -22,7 +22,7 @@ def input_to_index(num)
 end
 
 def move(board, index, player_token)
-  player_token = "X", "O" 
+  player_token = "X"
   board[index] = player_token
   end
 
