@@ -26,6 +26,7 @@ def move(board, index, player_token)
   board[index] = player_token
 end
 
+
 def position_taken?(board, index)
   return board[index] !=" "
 end
