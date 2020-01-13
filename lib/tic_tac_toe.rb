@@ -22,11 +22,9 @@ def input_to_index(num)
 end
 
 def move(board, index, player_token)
-  def update_array(array, index, token)
+  player_token 
   board[index] = player_token
   end
-update_array(board, index, token)
-end
 
 def position_taken?(board, index)
   return board[index] !=" "
