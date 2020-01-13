@@ -117,6 +117,7 @@ def winner(board)
       return "O"
     end 
   end 
+end 
 
 def play(board)
     until over?(board)
@@ -129,6 +130,6 @@ def play(board)
         puts "Congratulations #{winner(board)}!"
     end
 end
-end
+
 
 
